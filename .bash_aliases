@@ -6,4 +6,7 @@ alias apty="sudo apt-get install -y"
 alias npmg="npm install -g"
 alias npms="npm install --save"
 alias npmsd="npm install --save-dev"
-alias ls='ls -lax --color=auto
+alias ls="ls -lax --color=auto"
+alias docs="cd ~/Documents"
+alias gping="ping g.cn -c 2"
+alias turnoff="sudo poweroff"
