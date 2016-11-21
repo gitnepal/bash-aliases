@@ -31,3 +31,11 @@ alias nr="npm run"
 alias nls="npm list"
 alias nlsg="npm list --global"
 alias gcm="git checkout master"
+
+# bad spellings
+alias sl="ls"
+alias mdkir="mkdir"
+
+# heroku
+alias hl="heroku login --sso"
+alias hpsql="heroku pg:psql --app"
