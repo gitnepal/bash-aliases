@@ -39,3 +39,11 @@ alias mdkir="mkdir"
 # heroku
 alias hl="heroku login --sso"
 alias hpsql="heroku pg:psql --app"
+
+# elixir/mix
+alias mn="mix new"
+alias mpn="mix phoenix.new"
+alias mps="mix phoenix.server"
+alias mer="mix ecto.reset"
+alias mch="mix coveralls.html"
+alias mtw="mix test --only wip"
