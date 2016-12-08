@@ -39,6 +39,7 @@ alias mdkir="mkdir"
 # heroku
 alias hl="heroku login --sso"
 alias hpsql="heroku pg:psql --app"
+alias hbash="heroku run bash --app"
 
 # elixir/mix
 alias mn="mix new"
