@@ -8,3 +8,5 @@ This repo consists of [bash aliases](.bash_aliases) that I put and keep on using
 ```shell
 wget -O ~/.bash_aliases https://raw.githubusercontent.com/techgaun/bash-aliases/master/.bash_aliases
 ```
+
+If you have any custom sensitive aliases that you don't want to check-in, you can create `.bash_aliases_secret` file in your `$HOME` directory.

@@ -58,3 +58,7 @@ alias mer="mix ecto.reset"
 alias mch="mix coveralls.html"
 alias mtw="mix test --only wip"
 alias mrh="mix run --no-halt"
+
+if [[ -f "${HOME}/.bash_aliases_secret" ]]; then
+  source ${HOME}/.bash_aliases_secret
+fi
